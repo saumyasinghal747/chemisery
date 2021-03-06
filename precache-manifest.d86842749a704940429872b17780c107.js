@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chemisery/img/logo.63a7d78d.svg"
   },
   {
-    "revision": "f4220c091b7eb96edb44c21bc7230d29",
+    "revision": "9f65df3df71ba8868a223758f8f6332a",
     "url": "/chemisery/index.html"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chemisery/js/about.7e690e8b.js"
   },
   {
-    "revision": "5559c57f4cae97f358d9",
-    "url": "/chemisery/js/app.a9941a73.js"
+    "revision": "af6bc6ce444a27dc1d3f",
+    "url": "/chemisery/js/app.b5c422fb.js"
   },
   {
     "revision": "0b34e9e51f8e9bda1528",
