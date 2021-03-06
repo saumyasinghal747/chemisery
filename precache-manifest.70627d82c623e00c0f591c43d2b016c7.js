@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chemisery/css/effusion~pv-nt.6ccc728a.css"
   },
   {
-    "revision": "bfe86b35258de08a9772",
+    "revision": "fe9b1c192cf889ae588d",
     "url": "/chemisery/css/gaslaws.feb40247.css"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chemisery/img/logo.63a7d78d.svg"
   },
   {
-    "revision": "7d139f693962cdc77b449afcab944672",
+    "revision": "1df31ae365b9a1b6e542e365156f7fcf",
     "url": "/chemisery/index.html"
   },
   {
@@ -24,28 +24,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chemisery/js/about.7e690e8b.js"
   },
   {
-    "revision": "3614e834d72dd4ef3fef",
-    "url": "/chemisery/js/app.1e5a201d.js"
+    "revision": "5abe49fdc6bd6e705bc6",
+    "url": "/chemisery/js/app.8c277426.js"
   },
   {
     "revision": "0b34e9e51f8e9bda1528",
     "url": "/chemisery/js/chunk-vendors.e5da5b62.js"
   },
   {
-    "revision": "cad8c73d0094dc95bf2c",
-    "url": "/chemisery/js/effusion.361f1a9e.js"
+    "revision": "84f492e41eaba4eb93c6",
+    "url": "/chemisery/js/effusion.23a246d7.js"
   },
   {
     "revision": "14d6626271970009e785",
     "url": "/chemisery/js/effusion~pv-nt.e1402402.js"
   },
   {
-    "revision": "bfe86b35258de08a9772",
-    "url": "/chemisery/js/gaslaws.b722af6a.js"
+    "revision": "fe9b1c192cf889ae588d",
+    "url": "/chemisery/js/gaslaws.de4a52cd.js"
   },
   {
-    "revision": "faa4eacc8fe9b160e2b0",
-    "url": "/chemisery/js/pv-nt.55123f17.js"
+    "revision": "e841862c9b2575e364d3",
+    "url": "/chemisery/js/pv-nt.f6c6ad3f.js"
   },
   {
     "revision": "d4d95acf779ada6d5ddac6c821714595",
