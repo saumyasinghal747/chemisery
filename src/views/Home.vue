@@ -2,7 +2,7 @@
   <div class="home">
     <v-container>
       <h1>Home</h1>
-      <v-card>
+      <v-card class="my-5">
         <v-card-title>Gas Laws</v-card-title>
         <v-card-text>PV/nT and Graham's Law</v-card-text>
         <v-card-actions>

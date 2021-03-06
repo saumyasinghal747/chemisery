@@ -4,9 +4,9 @@
   <v-card class="pa-5 my-5">
     <h3>Molar Masses of Gases</h3>
     <v-row class="pt-5 px-5 my-5">
-      <v-text-field v-model="sgasa" filled hint="1 g" class="mx-10" label="Gas A"></v-text-field>
-      <v-text-field v-model="sgasb" filled hint="1 g" class="mx-10" label="Gas B"></v-text-field>
-      <v-text-field v-model="srate" filled hint="1" class="mx-10" label="Rate"></v-text-field>
+      <v-text-field :disabled="calculating==='gasa'" v-model="sgasa" filled hint="1 g" class="mx-10" label="Gas A"></v-text-field>
+      <v-text-field :disabled="calculating==='gasb'" v-model="sgasb" filled hint="1 g" class="mx-10" label="Gas B"></v-text-field>
+      <v-text-field :disabled="calculating==='rate'" v-model="srate" filled hint="1" class="mx-10" label="Rate"></v-text-field>
     </v-row>
   </v-card>
   <v-card class="pa-5 my-5">
@@ -40,8 +40,8 @@ name: "effusion",
     srate:1,
     units:{
       rate:['Gas A effuses','times as fast as Gas B'],
-      gasa:['The molar mass of Gas A is'],
-      gasb:['The molar mass of Gas B is']
+      gasa:['The molar mass of Gas A is','gram(s)'],
+      gasb:['The molar mass of Gas B is','gram(s)']
     }
   }),
   computed: {

@@ -5,12 +5,12 @@
   <v-card>
     <v-row class="py-5 my-5">
       <v-col class="mx-10">
-        <v-text-field v-model="satm" filled hint="1 atm" label="Pressure"></v-text-field>
-        <v-text-field v-model="smoles" filled hint="1 mol" label="Moles"></v-text-field>
+        <v-text-field :disabled="calculating==='atm'" v-model="satm" filled hint="1 atm" label="Pressure"></v-text-field>
+        <v-text-field :disabled="calculating==='moles'" v-model="smoles" filled hint="1 mol" label="Moles"></v-text-field>
       </v-col>
       <v-col class="mx-10">
-        <v-text-field v-model="skelvin" filled hint="273 K" label="Temperature"></v-text-field>
-        <v-text-field v-model="sliters" filled hint="22.4 L" label="Volume"></v-text-field>
+        <v-text-field :disabled="calculating==='Kelvin'" v-model="skelvin" filled hint="273 K" label="Temperature"></v-text-field>
+        <v-text-field :disabled="calculating==='liters'" v-model="sliters" filled hint="22.4 L" label="Volume"></v-text-field>
       </v-col>
     </v-row>
   </v-card>
@@ -34,7 +34,7 @@
           value="atm"
       ></v-radio>
     </v-radio-group>
-    <span><b>Answer:  </b>{{response}} {{calculating}}</span>
+    <span><b>Answer:  </b><span class="primary--text">{{response}}</span> {{calculating}}</span>
   </v-card>
 </v-container>
 </template>

@@ -47,7 +47,7 @@ name: "GasLaws",
     items:[
       {
         icon:'mdi-balloon',
-        title:'PV/nT',
+        title:'Pressure',
         to:'pv-nt'
       },
       {
