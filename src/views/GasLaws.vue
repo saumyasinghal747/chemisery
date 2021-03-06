@@ -54,6 +54,11 @@ name: "GasLaws",
         icon:'mdi-pot-steam',
         title:'Effusion',
         to:'effusion'
+      },
+      {
+        icon:'mdi-chart-pie',
+        title:'Partial Pressure',
+        to:'partial-pressure'
       }
     ]
   })

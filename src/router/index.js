@@ -30,6 +30,10 @@ const routes = [
       {
         path: 'effusion',
         component: () => import(/* webpackChunkName: "effusion" */ '../views/GasLaws/effusion.vue')
+      },
+      {
+        path: 'partial-pressure',
+        component: () => import(/* webpackChunkName: "effusion" */ '../views/GasLaws/PartialPressure')
       }
     ]
   }
