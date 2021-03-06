@@ -1,7 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <v-container>
+      <h1>Home</h1>
+      <v-card>
+        <v-card-title>Gas Laws</v-card-title>
+        <v-card-text>PV/nT and Graham's Law</v-card-text>
+        <v-card-actions>
+          <v-btn color="primary" to="/gas-laws">
+            open
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-container>
+
   </div>
 </template>
 

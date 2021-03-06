@@ -17,11 +17,28 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },
+  {
+    path: '/gas-laws',
+    name: 'Gas Laws',
+    component: () => import(/* webpackChunkName: "gaslaws" */ '../views/GasLaws.vue'),
+    children:[
+      {
+        path: 'pv-nt',
+        component: () => import(/* webpackChunkName: "pv-nt" */ '../views/GasLaws/pv-nt.vue')
+      },
+      {
+        path: 'effusion',
+        component: () => import(/* webpackChunkName: "effusion" */ '../views/GasLaws/effusion.vue')
+      }
+    ]
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: process.env.NODE_ENV === 'production'
+      ? 'hash'
+      : 'history',
   base: process.env.BASE_URL,
   routes
 })
