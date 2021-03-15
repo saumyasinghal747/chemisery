@@ -1,19 +1,5 @@
-# chemistry-2
+# chemisery
 
-## Project setup
-```
-yarn install
-```
+Chemistry is misery. Don't suffer in misery. 
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://saumyasinghal747.github.io/chemisery
