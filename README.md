@@ -1,4 +1,6 @@
-# chemistry-2
+# Chemisery
+
+Chemistry is boring! This is a compilation of calculators I made :D
 
 ## Project setup
 ```
@@ -15,5 +17,3 @@ yarn serve
 yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -6,7 +6,7 @@
       dark
     >
       <div class="d-flex align-center">
-        <v-app-bar-title>Chemisery</v-app-bar-title>
+        <v-app-bar-title ><router-link tag="div" style="cursor: pointer" class="text--white" to="/">Chemisery</router-link></v-app-bar-title>
       </div>
 
     </v-app-bar>
@@ -18,13 +18,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+
   },
 
   data: () => ({
@@ -32,3 +32,11 @@ export default {
   }),
 };
 </script>
+
+<style>
+.v-app-bar-title__placeholder, .v-app-bar-title__content {
+  overflow: visible !important;
+   text-overflow: initial !important;
+  white-space: nowrap;
+}
+</style>
